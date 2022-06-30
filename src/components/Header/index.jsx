@@ -2,7 +2,7 @@ import React from 'react';
 import * as C from './styled'
 import './header.css'
 
-const Header = ({black}) => {
+const Header = ({black}) => { 
     return (  
         <C.Header className={black ? 'black' : ''}>
             <C.Logo>
